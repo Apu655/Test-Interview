@@ -76,6 +76,9 @@ const App = () => {
       setSubmit(false)
       setErrorMessage("Please fill out the all the fields")
     }
+    else{
+      console.log("Git update")
+    }
   }
 
   return (
